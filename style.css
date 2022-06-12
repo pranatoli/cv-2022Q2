@@ -82,12 +82,14 @@ body {
 .section-avatar img {
     width: 240px;
     height: 24gi0px;
-    border-radius: 500px;
+    border-radius: 40%;
     box-shadow: 0 0 50px rgb(0, 0, 0);
 }
 
-section.section-avatar {
-    text-align: center;
+.section.section-avatar {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
 }
 
 .section {
