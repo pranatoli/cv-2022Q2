@@ -1,0 +1,131 @@
+/* future css, now comment */
+@media (max-width: 768px) {
+    .section {
+        width: 100%;
+    }
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(assets/img/backgroun.png);
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: 'Roboto', sant-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #4b2f2fd1;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(71, 71, 71);
+}
+
+.link:hover {
+    color: rgb(47, 42, 102);
+}
+
+.header {
+    width: 100%;
+    background: rgb(83 80 98 / 60%);
+}
+
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #0000009a;
+    padding: 0 15px;
+    line-height: 40px;
+    transition: color 1s;
+    transition: border 1s;
+}
+
+.nav-link:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.904);
+    border-bottom: 1px solid #ffffff;
+    border-top: 1px solid #ffffff;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+
+.section-avatar img {
+    width: 240px;
+    height: 24gi0px;
+    border-radius: 500px;
+    box-shadow: 0 0 50px rgb(0, 0, 0);
+}
+
+section.section-avatar {
+    text-align: center;
+}
+
+.section {
+    width: 46%;
+    margin: 17px;
+    border-bottom: 2px solid #403535;
+}
+
+h1,
+h2 {
+    text-shadow: 1px 1px 20px rgb(0, 0, 0);
+}
+
+.section-profile {
+    padding-top: 70px;
+}
+
+
+.section-title {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #321d1de4;
+}
+
+.footer {
+    background: rgba(0, 0, 0, 0.359);
+}
+
+.footer-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer-name {
+    justify-content: center;
+}
+
+.footer-link {
+    justify-content: end;
+}
