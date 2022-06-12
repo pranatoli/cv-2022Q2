@@ -43,7 +43,7 @@ body {
 
 .header {
     width: 100%;
-    background: rgb(83 80 98 / 60%);
+    background-image: url(assets/img/footer-background.jpg);
 }
 
 .nav-list {
@@ -113,7 +113,7 @@ h2 {
 }
 
 .footer {
-    background: rgba(0, 0, 0, 0.359);
+    background-image: url(assets/img/footer-background.jpg);
 }
 
 .footer-content {
