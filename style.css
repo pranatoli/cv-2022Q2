@@ -18,6 +18,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url(assets/img/backgroun.png);
+    background-attachment: fixed;
     flex-direction: column;
     justify-content: space-between;
     font-family: 'Roboto', sant-serif;
@@ -34,11 +35,11 @@ body {
 
 .link {
     text-decoration: none;
-    color: rgb(71, 71, 71);
+    color: rgb(0, 0, 0);
 }
 
 .link:hover {
-    color: rgb(47, 42, 102);
+    color: rgb(9 0 108);
 }
 
 .header {
@@ -89,9 +90,9 @@ section.section-avatar {
 }
 
 .section {
-    width: 46%;
-    margin: 17px;
-    border-bottom: 2px solid #403535;
+    width: 45%;
+    margin: 20px;
+    border-bottom: 1px solid #000000;
     box-shadow: #403535;
 }
 
@@ -117,16 +118,24 @@ h2 {
     background-image: url(assets/img/footer-background.jpg);
 }
 
-.footer-content {
+.footer-container {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-around;
     align-items: center;
+    padding: 10px 0;
 }
 
-.footer-name {
+.git-link {
     justify-content: center;
 }
 
-.footer-link {
+.rss-link {
     justify-content: end;
+    width: 120px;
+    height: 45px;
+}
+
+.rss-img {
+    width: 120px;
+    height: 45px;
 }
