@@ -4,7 +4,7 @@
 * Location: Belarus, Vitebsk
 * Phone: +375 29 5 149 189
 * E-mail: pr.anatoli@gmail.com
-* GitHub: pranatoli
+* GitHub: https://github.com/pranatoli/rsschool-cv/tree/gh-pages
 
 ## About me
 My motto: Live and learn.
