@@ -115,6 +115,22 @@ h2 {
     color: #0b0b0b;
 }
 
+.contact-list.location {
+    list-style-image: url(assets/icon/location.png);
+}
+
+.contact-list.phone {
+    list-style-image: url(assets/icon/phone.png);
+}
+
+.contact-list.mail {
+    list-style-image: url(assets/icon/mail.png);
+}
+
+.contact-list.github {
+    list-style-image: url(assets/icon/github.png);
+}
+
 .footer {
     background-image: url(assets/img/footer-background.jpg);
 }
