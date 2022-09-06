@@ -10,15 +10,16 @@
 My motto: Live and learn.
 
 ## Skills
-JavaScript 
-CSS
-HTML
-Git
+* JavaScript 
+* CSS
+* HTML
+* Git
 
 ## Education
-Graduated from college with a degree in information technology software
+* Graduated from college with a degree in information technology software
+* RSSchool 2022Q2 certificate
 
 ## Languages
-Russian free
-Belarusian medium
-English A2 (Streamline school certificate)
+* Russian native
+* Belarusian native
+* English A2 (Streamline school certificate)
